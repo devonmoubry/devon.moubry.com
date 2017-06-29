@@ -3,16 +3,24 @@ body {
   font-family: "Century Gothic", Futura, sans-serif;
 }
 
-.nav-link {
+nav {
   background: #ffffff;
+  height: 5rem;
+  vertical-align: middle;
+  box-shadow: 0 0 5px #888;
+}
+
+.nav-link {
   color: #56dee8;
   font-size: 18px;
-  text-decoration:none;
+  text-decoration: none;
+  margin: 3vw;
+  line-height: 5rem;
 }
 
 .nav-link:hover {
   color: #008A96;
-  border-bottom: 1px solid #008A96;
+  border-bottom: 2px solid #008A96;
 }
 
 .major-section {
@@ -22,12 +30,17 @@ body {
 }
 
 footer {
+  background: #ffffff;
   text-align: center;
+  box-shadow: 0 0 5px #888;
+  line-height: 8rem;
+  vertical-align: middle;
 }
 
 .fa {
   color: #56dee8;
   padding: 2vw;
+  line-height: 5rem;
 }
 
 .fa:hover {
