@@ -2,4 +2,4 @@
 
 My portfolio of awesome.
 
-[Live version](devon.moubry.com)
+[Live version](https://devon.moubry.com/)
