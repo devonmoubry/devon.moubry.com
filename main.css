@@ -29,6 +29,27 @@ nav {
   margin: auto;
 }
 
+.live-version {
+  color: #fafafa;
+  background: #56dee8;
+  font-size: 18px;
+  line-height: 5rem;
+  text-decoration: none;
+  box-shadow: 0 4px 0 #008A96;
+  border: 0;
+	padding: 15px 25px;
+}
+
+.live-version:active {
+  top: 4px;
+  box-shadow: 0 4px 0 #008A96;
+  background-color: #008A96;
+}
+
+.live-version:hover {
+  opacity: .75;
+}
+
 footer {
   background: #ffffff;
   text-align: center;
