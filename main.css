@@ -33,7 +33,6 @@ nav {
 .about-me {
   padding: 2rem;
   text-align: center;
-  background-color: #e0fdff;
 }
 
 .live-version {
@@ -92,4 +91,22 @@ h2 {
 p {
   line-height: 27px;
   text-align: justify;
+}
+
+.skill-title {
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+}
+
+.skill {
+  max-width: 300px;
+  padding: 0 3rem;
+}
+
+.blue {
+  margin-top: 2px;
+  background-color: #e0fdff;
 }
