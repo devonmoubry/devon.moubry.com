@@ -33,8 +33,7 @@ nav {
 .about-me {
   padding: 2rem;
   text-align: center;
-  font-size: 20px;
-  letter-spacing: 1px;
+  background-color: #e0fdff;
 }
 
 .live-version {
@@ -74,4 +73,23 @@ footer {
 
 .fa:hover {
   color: #008A96;
+}
+
+.name, .title {
+  font-size: 32px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.title {
+  color: grey;
+}
+
+h2 {
+  margin-top: 6rem;
+}
+
+p {
+  line-height: 27px;
+  text-align: justify;
 }
