@@ -74,13 +74,13 @@ footer {
   color: #008A96;
 }
 
-.name, .title {
+.name, .title, .major-heading, .minor-heading, .project-title {
   font-size: 32px;
   letter-spacing: 1px;
   font-weight: lighter;
 }
 
-.title {
+.title, .project-title {
   color: grey;
 }
 
