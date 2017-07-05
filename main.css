@@ -31,7 +31,7 @@ nav {
 }
 
 .about-me {
-  padding: 2rem;
+  padding: 6rem;
   text-align: center;
 }
 
@@ -97,7 +97,7 @@ p {
   text-align: center;
 }
 
-.skills {
+.flex {
   display: flex;
 }
 
@@ -109,4 +109,8 @@ p {
 .blue {
   margin-top: 2px;
   background-color: #e0fdff;
+}
+
+.skill-section {
+  padding: 4rem;
 }
