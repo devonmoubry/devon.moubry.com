@@ -78,6 +78,7 @@ footer {
   color: #56dee8;
   padding: 2vw;
   line-height: 5rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .footer-link:hover {
@@ -147,4 +148,8 @@ p {
 .horizontal-line {
   padding: 2rem;
   border-top: 2px solid #888;
+}
+
+a {
+  transition: all 0.3s ease-in-out;
 }
