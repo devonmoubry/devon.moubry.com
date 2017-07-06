@@ -16,7 +16,7 @@ nav {
   color: #56dee8;
   font-size: 18px;
   text-decoration: none;
-  border: 1px solid #56dee8;
+  border: 2px solid #56dee8;
   display: inline-block;
   width: 100px;
   margin: 2rem;
@@ -25,7 +25,7 @@ nav {
 
 .nav-link:hover {
   color: #008A96;
-  border-bottom: 2px solid #008A96;
+  border: 2px solid #008A96;
 
 }
 
@@ -45,7 +45,7 @@ nav {
 }
 
 .live-version {
-  color: #fafafa;
+  color: #ffffff;
   background: #56dee8;
   font-size: 18px;
   line-height: 5rem;
@@ -53,6 +53,7 @@ nav {
   box-shadow: 0 4px 0 #008A96;
   border: 0;
 	padding: 15px 25px;
+  vertical-align: middle;
 }
 
 .live-version:active {
@@ -62,7 +63,7 @@ nav {
 }
 
 .live-version:hover {
-  opacity: .6;
+  opacity: .5;
 }
 
 footer {
@@ -73,13 +74,13 @@ footer {
   vertical-align: middle;
 }
 
-.fa {
+.footer-link {
   color: #56dee8;
   padding: 2vw;
   line-height: 5rem;
 }
 
-.fa:hover {
+.footer-link:hover {
   color: #008A96;
 }
 
@@ -90,11 +91,11 @@ footer {
 }
 
 .title, .project-title {
-  color: grey;
+  color: #888;
 }
 
 h2 {
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 
 p {
@@ -111,11 +112,39 @@ p {
 }
 
 .skill {
-  max-width: 300px;
+  max-width: 350px;
   padding: 0 3rem;
+  margin: 3rem auto;
 }
 
 .section {
   text-align: center;
   margin: auto;
+}
+
+.repo-link {
+  color: #ffffff;
+  line-height: 5rem;
+  background-color: #008A96;
+  padding: 15px 25px;
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 18px;
+  box-shadow: 0 4px 0 #56dee8;
+}
+
+.repo-link:hover {
+  opacity: .5;
+}
+
+.repo {
+  color: #ffffff;
+  vertical-align: middle;
+  padding-left: 2px;
+  padding-bottom: 2px;
+}
+
+.horizontal-line {
+  padding: 2rem;
+  border-top: 2px solid #888;
 }
