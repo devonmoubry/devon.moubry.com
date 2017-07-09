@@ -166,3 +166,15 @@ a {
 letter-spacing: 3px;
 font-size: 42px;
 }
+
+/*img {
+  background-color: #008A96;
+}*/
+
+.macbook {
+  max-width: 800px;
+}
+
+.iphone {
+  max-width: 200px;
+}
