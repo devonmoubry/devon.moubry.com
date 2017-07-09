@@ -72,11 +72,12 @@ footer {
   box-shadow: 0 0 5px #888;
   line-height: 8rem;
   vertical-align: middle;
+  height: 8rem;
 }
 
 .footer-link {
   color: #56dee8;
-  padding: 2vw;
+  padding: 2rem;
   line-height: 5rem;
   transition: all 0.3s ease-in-out;
 }
@@ -152,4 +153,16 @@ p {
 
 a {
   transition: all 0.3s ease-in-out;
+}
+
+.social-section {
+  margin: 0 auto;
+  text-align: center;
+  height: 6rem;
+}
+
+.me {
+  font-weight: 500;
+letter-spacing: 3px;
+font-size: 42px;
 }
