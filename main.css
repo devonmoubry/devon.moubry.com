@@ -99,7 +99,7 @@ header {
   flex-direction: column;
   height: 100vh;
   justify-content: space-around;
-  margin: 4vw;
+  margin: 6vw;
   text-align: center;
 }
 
@@ -139,6 +139,10 @@ li {
   list-style: none;
 }
 
+p.project-description {
+  line-height: 1.5;
+}
+
 @media screen and (min-width: 425px) {
 
   footer .cta {
@@ -174,7 +178,7 @@ li {
     margin: 0;
   }
 
-  i.fa.fa-chevron-down {
+  .project i.fa.fa-chevron-down {
     display: none;
   }
 
