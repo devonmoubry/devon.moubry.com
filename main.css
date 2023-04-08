@@ -83,7 +83,7 @@ header {
   display: flex;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
-  /* transition: .5s; */
+  transition: .5s;
   width: 150px;
   background-color: #aeefed78;
   margin: 10px;
