@@ -217,6 +217,10 @@ p.project-description {
 
 }
 
+.no-transition * {
+  transition: none !important;
+}
+
 /*pretending to be white #E8FFFE
 light turquoise #a3fffc
 medium turquoise #1BFFF9
